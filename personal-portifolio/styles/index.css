@@ -1,0 +1,41 @@
+body {
+    font-family: "Inter", sans-serif !important;
+} 
+
+
+.main-navbar {
+    background-color: #242F40;
+    box-shadow: -1px 3px 6px 0px #00000045;
+}
+
+.navbar-link {
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.search-btn {
+    background-color: #e5e5e5;
+}
+
+main {
+    background-color: #e5e5e5;
+    height: 100vh;
+}
+
+.work-objects {
+    background-color: #cca33ba4;
+    height: 20vh;
+    width: 100vw;
+}
+
+.footer {
+    background-color: #363636;
+}
+
+.bottom-line {
+
+    height: 0.4rem;
+    background-color: #cca43b;
+}
