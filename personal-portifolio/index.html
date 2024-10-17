@@ -21,35 +21,34 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
     />
-  </head>
+    
+  </head> 
   <body>
     <nav class="main-navbar navbar">
+      <!-- <div class="breadcrumb-container">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="#about">About</a></li>
+          <li class="breadcrumb-item"><a href="#projects">Projects</a></li>
+          <li class="breadcrumb-item"><a href="#experience">Experience</a></li>
+          <li class="breadcrumb-item"><a href="#contact">Contact</a></li>
+        </ol>
+      </div> -->
       <div class="container-fluid">
         <a class="navbar-link">Guilherme Silva de Carvalho</a>
-        <form class="d-flex" role="search">
-          <input
-            class="form-control me-2"
-            type="search"
-            placeholder="Search"
-            aria-label="Search"
-          />
-          <button class="btn btn-primary search-btn" type="submit">
-            Search
-          </button>
-        </form>
       </div>
     </nav>
     <main>
-      <div class="container">
+      
+      <section class="container" id="about">
         <h1 >Get to know me ...</h1>
         <div class="main-card card mb-3 mt-5" style="max-width: 100vw">
           <div class="row g-0">
             <div class="col-md-4">
-              <img src="..." class="img-fluid rounded-start" alt="..." />
+              <img src="assets/images/linkedin.jfif" class="img-fluid rounded-start" alt="Guilherme" />
             </div>
             <div class="col-md-8">
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
+                <h5 class="card-title">A Self-taught Web Developer</h5>
                 <p class="card-text">
                   This is a wider card with supporting text below as a natural
                   lead-in to additional content. This content is a little bit
@@ -135,13 +134,113 @@
               </div>
             </div>
           </div>
-        </div>
+        </div>   
+      </section>  
+      <section class="mt-5 work-objects" id="projects"> 
         
-      </div>
-      <div class="mt-5 work-objects">
+          <div class="tech-stack">
+            <img src="assets/images/html-5.png" alt="HTML Logo" class="tech-logo html-logo">
+            <img src="assets/images/css-3.png" alt="CSS Logo" class="tech-logo css-logo">
+            <img src="assets/images/js.png" alt="JavaScript Logo" class="tech-logo js-logo">
+            <img src="assets/images/angular.png" alt="Angular Logo" class="tech-logo angular-logo">
+            <img src="assets/images/programing (1).png" alt="NodeJS Logo" class="tech-logo node-logo">
+          </div>
+      </section>
+      <section class="job-experience" id="experience">
+        <div class="container">
+          <h2 class="">Job Experience</h2>
+          <div class="row">
             
-      </div>
-    </main>
+            <div class="col-md-6 mb-4">
+              <div class="card job-card">
+                <div class="card-body">
+                  <h5 class="card-title">Frontend Developer</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">SmilePass | Jun 2024 - Present</h6>
+                  <p class="card-text">
+                    As a Front End Developer at a cutting-edge payment plan startup, I specialize in Angular to create innovative solutions that are transforming the financial technology landscape. In my role, I design and develop seamless, user-friendly interfaces that significantly enhance the user experience within the payment plan ecosystem. Additionally, I connect the web application to the backend, ensuring smooth and efficient data integration and communication.
+                  </p>
+                  <!-- Technology Badges -->
+                  <div class="badges">
+                    <span class="badge bg-primary">HTML</span>
+                    <span class="badge bg-success">CSS</span>
+                    <span class="badge bg-warning">TypeScript</span>
+                    <span class="badge bg-danger">Angular</span>
+                    <span class="badge bg-dark">Git</span>
+                    <span class="badge bg-info">Xano</span>
+                    <span class="badge bg-primary">Agile</span>
+                    <span class="badge bg-warning">Miro</span>
+                    <span class="badge bg-dark">REST APIs</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 mb-4">
+              <div class="card job-card">
+                <div class="card-body">
+                  <h5 class="card-title">Frontend Developer(Internship)</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">SmilePass | Nov 2023 - May 2024</h6>
+                  <p class="card-text">
+                    During my immersive traineeship as a Front End Developer at a cutting-edge payment plan startup, I have delved into the world of Angular, contributing to the development of innovative solutions that redefine the landscape of financial technology. In this dynamic role, I have been playing an integral part in crafting seamless and user-friendly interfaces that enhance the user experience within the payment plan ecosystem.
+                  </p>
+                  <!-- Technology Badges -->
+                  <div class="badges">
+                    <span class="badge bg-primary">HTML</span>
+                    <span class="badge bg-success">CSS</span>
+                    <span class="badge bg-warning">TypeScript</span>
+                    <span class="badge bg-danger">Angular</span>
+                    <span class="badge bg-dark">Git</span>
+                    <span class="badge bg-info">Xano</span>
+                    <span class="badge bg-primary">Agile</span>
+                    <span class="badge bg-warning">Miro</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 mb-4">
+              <div class="card job-card">
+                <div class="card-body">
+                  <h5 class="card-title">Frontend Developer</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">Rio de Janeiro Council | Mar 2022 - Jul 2022</h6>
+                  <p class="card-text">
+                    During my tenure as a front end developer at the Rio de Janeiro Council, I spearheaded the development and maintenance of a diverse portfolio of websites, comprising six distinct WordPress platforms. Additionally, I actively contributed to Angular projects, demonstrating a versatile skill set that spans both content management systems and advanced web application frameworks.
+                  </p>
+                  <!-- Technology Badges -->
+                  <div class="badges">
+                    <span class="badge bg-primary">HTML</span>
+                    <span class="badge bg-success">CSS</span>
+                    <span class="badge bg-warning">JavaScript</span>
+                    <span class="badge bg-danger">Angular</span>
+                    <span class="badge bg-dark">Git</span>
+                    <span class="badge bg-info">WordPress</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 mb-4">
+              <div class="card job-card">
+                <div class="card-body">
+                  <h5 class="card-title">Deck Officer</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">Wilson Sons Ultra Tug Offshore | Mar 2021 - May 2021</h6>
+                  <p class="card-text">
+                    As a Merchant Marine Deck Officer, I assumed a pivotal role in navigating and overseeing the operations of a seafaring vessel. My responsibilities extended to meticulously charting the ship's course, ensuring safe and efficient navigation through diverse maritime environments. Additionally, I actively managed communication protocols, establishing crucial connections with oil drilling platforms and coordinating with other vessels to ensure seamless maritime operations.
+                  </p>
+                  <!-- Technology Badges -->
+                  <div class="badges">
+                    <span class="badge bg-primary">Ship's Handling</span>
+                    <span class="badge bg-success">Leadership</span>
+                    <span class="badge bg-warning">Data Analysis(Sensors)</span>
+                    <span class="badge bg-danger">Communication</span>
+                    <span class="badge bg-info">Documentation</span>
+                    <span class="badge bg-dark">Resilience</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="contact"></section>
+    </main>   
     <footer class="footer text-light py-3">
       <div class="container text-center">
         <div class="row">
@@ -208,5 +307,6 @@
       crossorigin="anonymous"
     ></script>
     <!-- End of Bootstrap Scripts -->
+    <script src="js/script.js"></script>
   </body>
 </html>

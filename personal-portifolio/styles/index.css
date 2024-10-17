@@ -15,27 +15,101 @@ body {
     text-decoration: none;
 }
 
-.search-btn {
-    background-color: #e5e5e5;
+.breadcrumb-container {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #f8f9fa;
+  padding: 10px 20px;
+  transition: padding 0.3s ease, font-size 0.3s ease;
+  z-index: 1000;
+}
+
+.breadcrumb {
+  display: flex;
+  gap: 10px;
+}
+
+.breadcrumb-item a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+.breadcrumb-container.shrink {
+  padding: 5px 15px;
+  font-size: 0.85rem;
+}
+
+.breadcrumb-item a.active {
+  font-weight: bold;
+  color: #0056b3;
+}
+
+.vertical-breadcrumbs {
+  position: fixed; 
+  top: 100px; 
+  left: 20px; 
+  width: 200px; 
+  background-color: #f8f8f8;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 main {
     background-color: #e5e5e5;
-    height: 100vh;
+    height: 100%;
 }
 
 .work-objects {
     background-color: #cca33ba4;
-    height: 20vh;
+    height: 30vh;
     width: 100vw;
 }
+
+.tech-stack {
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  padding: 6vh 0;
+}
+
+.tech-logo {
+  width: 7vw;
+}
+
+.job-experience {
+  background-color: #f8f9fa;
+  padding: 2rem 0;
+}
+
+.job-card {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border: none;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.job-card .card-title {
+  font-weight: 700;
+}
+
+.badges .badge {
+  margin-right: 0.5rem;
+  font-size: 0.875rem;
+}
+
+.job-card:hover {
+  transform: scale(1.05); 
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2); 
+}
+
+
 
 .footer {
     background-color: #363636;
 }
 
 .bottom-line {
-
     height: 0.4rem;
     background-color: #cca43b;
 }
